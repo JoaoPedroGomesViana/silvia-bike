@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Silva Bike | Loja e Manutenção</title>
+    <meta
+      name="description"
+      content="Loja de bicicletas, peças, manutenção e montagem personalizada."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">S</span>
+          <span>Silva Bike</span>
+        </div>
+
+        <nav class="nav-menu" aria-label="Navegação principal">
+          <a href="#inicio">Início</a>
+          <a href="#bicicletas">Bikes</a>
+          <a href="#pecas">Peças</a>
+          <a href="#manutencao">Manutenção</a>
+          <a href="#custom">Custom</a>
+        </nav>
+
+        <a href="#custom" class="btn btn-small">Monte sua bike</a>
+      </div>
+    </header>
+
+    <main id="inicio">
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">Pedale com liberdade</p>
+            <h1>Seu próximo passeio começa aqui.</h1>
+            <p class="lead">
+              Bikes premium, peças de alto desempenho e atendimento especializado
+              para manter sua roda sempre pronta para rodar.
+            </p>
+            <div class="hero-actions">
+              <a href="#bicicletas" class="btn">Ver bicicletas</a>
+              <a href="#manutencao" class="btn btn-secondary">Manutenção</a>
+            </div>
+
+            <ul class="hero-stats">
+              <li><strong>+8.000</strong><span>clientes</span></li>
+              <li><strong>4.8/5</strong><span>avaliações</span></li>
+              <li><strong>48h</strong><span>entrega</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Bicicleta em destaque">
+            <div class="bike-card">
+              <div class="bike-image"></div>
+              <div class="bike-info">
+                <span>Road Pro X1</span>
+                <strong>R$ 4.799</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features container">
+        <div class="feature-item">
+          <span>⚡</span>
+          <h3>Entrega rápida</h3>
+          <p>Envio seguro para todo o Brasil.</p>
+        </div>
+        <div class="feature-item">
+          <span>🛠️</span>
+          <h3>Assistência técnica</h3>
+          <p>Profissionais especialistas em bicicletas.</p>
+        </div>
+        <div class="feature-item">
+          <span>🎯</span>
+          <h3>Qualidade garantida</h3>
+          <p>Produtos confiáveis e com garantia.</p>
+        </div>
+      </section>
+
+      <section id="bicicletas" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Venda de bikes</p>
+            <h2>Escolha a bicicleta ideal para o seu estilo</h2>
+          </div>
+
+          <div class="product-grid">
+            <article class="card product-card">
+              <div class="product-image bike-urban"></div>
+              <div class="card-content">
+                <span class="tag">Urban</span>
+                <h3>bike pra cidade</h3>
+                <p>Leve, confortável e perfeita para o dia a dia.</p>
+                <div class="price-row">
+                  <strong>R$ 2.490</strong>
+           
+                </div>
+                <a
+                  class="btn btn-whatsapp"
+                  href="https://wa.me/553191305237?text=Ol%C3%A1%2C%20quero%20comprar%20a%20bike%20City%20Ride%207"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  WhatsApp
+                </a>
+              </div>
+            </article>
+
+            <article class="card product-card">
+              <div class="product-image bike-mtb"></div>
+              <div class="card-content">
+                <span class="tag">sport</span>
+                <h3>bike esportiva</h3>
+                <p>Desempenho para corridas e velocidade.</p>
+                <div class="price-row">
+                  <strong>R$ 3.890</strong>
+                
+                </div>
+                <a
+                  class="btn btn-whatsapp"
+                  href="https://wa.me/553191305237?text=Ol%C3%A1%2C%20quero%20comprar%20a%20bike%20Trail%20Master"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  WhatsApp
+                </a>
+              </div>
+            </article>
+
+            <article class="card product-card">
+              <div class="product-image bike-electric"></div>
+              <div class="card-content">
+                <span class="tag">trilha</span>
+                <h3>bike de trilha</h3>
+                <p>Melhor desempenho em todos os terrenos.</p>
+                <div class="price-row">
+                  <strong>R$ 5.799</strong>
+           
+                </div>
+                <a
+                  class="btn btn-whatsapp"
+                  href="https://wa.me/553191305237?text=Ol%C3%A1%2C%20quero%20comprar%20a%20bike%20Volt%20eBike"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  WhatsApp
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="pecas" class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Peças separadas</p>
+            <h2>Encontre o que seu setup precisa</h2>
+          </div>
+
+          <div class="parts-grid">
+            <article class="card small-card">
+              <div class="icon">🚴</div>
+              <h3>Quadros</h3>
+              <p>Estruturas leves e resistentes para todos os tipos de uso.</p>
+              <span>R$ 699</span>
+              <a
+                class="btn btn-whatsapp btn-small"
+                href="https://wa.me/553191305237?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20quadros%20de%20bike"
+                target="_blank"
+                rel="noopener"
+              >
+                WhatsApp
+              </a>
+            </article>
+
+            <article class="card small-card">
+              <div class="icon">🧰</div>
+              <h3>Freios</h3>
+              <p>Freios disc e v-brake para máxima segurança e controle.</p>
+              <span>R$ 249</span>
+              <a
+                class="btn btn-whatsapp btn-small"
+                href="https://wa.me/553191305237?text=Ol%C3%A1%2C%20quero%20consultar%20freios%20para%20bike"
+                target="_blank"
+                rel="noopener"
+              >
+                WhatsApp
+              </a>
+            </article>
+
+            <article class="card small-card">
+              <div class="icon">⚙️</div>
+              <h3>Transmissão</h3>
+              <p>Marchas, corrente e pedivelas com precisão e eficiência.</p>
+              <span>R$ 329</span>
+              <a
+                class="btn btn-whatsapp btn-small"
+                href="https://wa.me/553191305237?text=Ol%C3%A1%2C%20quero%20consultar%20pe%C3%A7as%20de%20transmiss%C3%A3o%20para%20bike"
+                target="_blank"
+                rel="noopener"
+              >
+                WhatsApp
+              </a>
+            </article>
+
+            <article class="card small-card">
+              <div class="icon">🛡️</div>
+              <h3>Suspensão</h3>
+              <p>Amortecedores e garfos para conforto em qualquer terreno.</p>
+              <span>R$ 399</span>
+              <a
+                class="btn btn-whatsapp btn-small"
+                href="https://wa.me/553191305237?text=Ol%C3%A1%2C%20quero%20consultar%20op%C3%A7%C3%B5es%20de%20suspens%C3%A3o%20para%20bike"
+                target="_blank"
+                rel="noopener"
+              >
+                WhatsApp
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="manutencao" class="section">
+        <div class="container maintenance-layout">
+          <div class="maintenance-copy">
+            <p class="eyebrow">Manutenção</p>
+            <h2>Seu bike precisa de cuidado constante.</h2>
+            <p>
+              Nossa equipe realiza revisão completa, ajustes de freio, troca de
+              correntes, regulagem de câmbio e muito mais para garantir
+              desempenho e segurança em cada pedalada.
+            </p>
+
+            <ul class="check-list">
+              <li>Diagnóstico completo da bike</li>
+              <li>Ajuste de freio e câmbio</li>
+              <li>Troca de pneus e câmaras</li>
+              <li>Lubrificação e limpeza geral</li>
+            </ul>
+          </div>
+
+          <div class="service-panel card">
+            <h3>Serviços em destaque</h3>
+            <div class="service-item">
+              <span>01</span>
+              <div>
+                <strong>Check-up básico</strong>
+                <p>R$ 79</p>
+              </div>
+            </div>
+            <div class="service-item">
+              <span>02</span>
+              <div>
+                <strong>Revisão completa</strong>
+                <p>R$ 189</p>
+              </div>
+            </div>
+            <div class="service-item">
+              <span>03</span>
+              <div>
+                <strong>Manutenção premium</strong>
+                <p>R$ 299</p>
+              </div>
+            </div>
+
+            <div class="maintenance-actions">
+              <label for="tipo-manutencao">Tipo de manutenção</label>
+              <select id="tipo-manutencao">
+                <option value="Check-up básico">Check-up básico</option>
+                <option value="Revisão completa">Revisão completa</option>
+                <option value="Manutenção premium">Manutenção premium</option>
+              </select>
+
+              <a
+                id="whatsapp-manutencao"
+                class="btn btn-whatsapp"
+                href="https://wa.me/553191305237?text=Ol%C3%A1%2C%20quero%20solicitar%20a%20manuten%C3%A7%C3%A3o%20Check-up%20b%C3%A1sico"
+                target="_blank"
+                rel="noopener"
+              >
+                WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="custom" class="section custom-section">
+        <div class="container custom-layout">
+          <div class="custom-copy">
+            <p class="eyebrow">Bike personalizada</p>
+            <h2>Monte a sua bike 100% do seu jeito</h2>
+            <p>
+              Personalize cada detalhe da sua bicicleta: quadro, rodas, suspensão,
+              câmbio, freios, visual e acessórios. Tudo pensado para combinar com
+              seu uso, conforto e estilo.
+            </p>
+
+            <div class="custom-steps">
+              <div>
+                <strong>1.</strong>
+                <span>Defina o uso</span>
+              </div>
+              <div>
+                <strong>2.</strong>
+                <span>Escolha os componentes</span>
+              </div>
+              <div>
+                <strong>3.</strong>
+                <span>Receba pronta para pedalar</span>
+              </div>
+            </div>
+
+            <ul class="custom-benefits">
+              <li>Quadro e tamanho sob medida</li>
+              <li>Freios e câmbio premium</li>
+              <li>Peças de alto desempenho</li>
+              <li>Acabamento 100% personalizado</li>
+            </ul>
+          </div>
+
+          <div class="card custom-form">
+            <h3>Configurador da bike</h3>
+
+            <form class="bike-configurator">
+              <div class="config-grid">
+                <label>
+                  Estilo
+                  <select id="estilo" class="custom-field" data-label="Estilo">
+                    <option value="200">Urbana</option>
+                    <option value="450">MTB</option>
+                    <option value="600">Road</option>
+                    <option value="850">Elétrica</option>
+                  </select>
+                </label>
+
+                <label>
+                  Quadro
+                  <select id="quadro" class="custom-field" data-label="Quadro">
+                    <option value="200">Alumínio</option>
+                    <option value="520">Carbono</option>
+                    <option value="380">Aço</option>
+                  </select>
+                </label>
+
+                <label>
+                  Tamanho
+                  <select id="tamanho" class="custom-field" data-label="Tamanho">
+                    <option value="50">S</option>
+                    <option value="90">M</option>
+                    <option value="150">L</option>
+                    <option value="220">XL</option>
+                  </select>
+                </label>
+
+                <label>
+                  Rodas
+                  <select id="rodas" class="custom-field" data-label="Rodas">
+                    <option value="100">26 polegadas</option>
+                    <option value="180">27,5 polegadas</option>
+                    <option value="260">29 polegadas</option>
+                  </select>
+                </label>
+
+                <label>
+                  Freios
+                  <select id="freios" class="custom-field" data-label="Freios">
+                    <option value="80">Disco hidráulico</option>
+                    <option value="120">V-brake</option>
+                    <option value="200">Disco mecânico</option>
+                  </select>
+                </label>
+
+                <label>
+                  Câmbio
+                  <select id="cambio" class="custom-field" data-label="Câmbio">
+                    <option value="150">Shimano 1x12</option>
+                    <option value="220">SRAM GX</option>
+                    <option value="300">Campagnolo</option>
+                  </select>
+                </label>
+
+                <label>
+                  Suspensão
+                  <select id="suspensao" class="custom-field" data-label="Suspensão">
+                    <option value="150">Sem suspensão</option>
+                    <option value="260">Dianteira</option>
+                    <option value="410">Completa</option>
+                  </select>
+                </label>
+
+                <label>
+                  Guidão
+                  <select id="guidao" class="custom-field" data-label="Guidão">
+                    <option value="90">Flat bar</option>
+                    <option value="110">Drop bar</option>
+                    <option value="180">Mountain bar</option>
+                  </select>
+                </label>
+
+                <label>
+                  Banco
+                  <select id="banco" class="custom-field" data-label="Banco">
+                    <option value="90">Conforto</option>
+                    <option value="140">Esportivo</option>
+                    <option value="240">Premium</option>
+                  </select>
+                </label>
+              </div>
+
+              <div class="option-group">
+                <span class="group-label">Acessórios</span>
+                <div class="check-grid">
+                  <label><input type="checkbox" class="extra-option" value="120" data-name="Cesta frontal" /> Cesta frontal + R$ 120</label>
+                  <label><input type="checkbox" class="extra-option" value="90" data-name="Suporte para celular" /> Suporte para celular + R$ 90</label>
+                  <label><input type="checkbox" class="extra-option" value="150" data-name="Farol + bagageiro" /> Farol + bagageiro + R$ 150</label>
+                  <label><input type="checkbox" class="extra-option" value="210" data-name="Pedais automáticos" /> Pedais automáticos + R$ 210</label>
+                  <label><input type="checkbox" class="extra-option" value="280" data-name="Bomba e kit de reparo" /> Bomba e kit de reparo + R$ 280</label>
+                  <label><input type="checkbox" class="extra-option" value="340" data-name="Assento premium" /> Assento premium + R$ 340</label>
+                </div>
+              </div>
+
+              <div class="option-group">
+                <span class="group-label">Cor e acabamento</span>
+                <div class="choice-grid colors">
+                  <label class="swatch-option">
+                    <input type="radio" name="cor" value="0" checked />
+                    <span class="color-dot black"></span>
+                    Preta
+                  </label>
+                  <label class="swatch-option">
+                    <input type="radio" name="cor" value="90" />
+                    <span class="color-dot blue"></span>
+                    Azul
+                  </label>
+                  <label class="swatch-option">
+                    <input type="radio" name="cor" value="130" />
+                    <span class="color-dot red"></span>
+                    Vermelha
+                  </label>
+                  <label class="swatch-option">
+                    <input type="radio" name="cor" value="120" />
+                    <span class="color-dot green"></span>
+                    Verde
+                  </label>
+                  <label class="swatch-option">
+                    <input type="radio" name="cor" value="150" />
+                    <span class="color-dot white"></span>
+                    Branca
+                  </label>
+                  <label class="swatch-option">
+                    <input type="radio" name="cor" value="180" />
+                    <span class="color-dot orange"></span>
+                    Laranja
+                  </label>
+                </div>
+              </div>
+
+              <div class="summary-panel">
+                <div class="summary-header">
+                  <span>Orçamento estimado</span>
+                  <strong id="valor-total">R$ 0</strong>
+                </div>
+                <ul id="resumo-itens">
+                  <li>Bike personalizada</li>
+                </ul>
+                <a
+                  id="whatsapp-custom"
+                  class="btn btn-whatsapp"
+                  href="https://wa.me/553191305237?text=Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento%20de%20bike%20personalizada"
+                  target="_blank"
+                  rel="noopener"
+                >
+                   Solicitar orçamento
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <a
+      class="floating-whatsapp"
+      href="https://wa.me/553191305237?text=Ol%C3%A1%2C%20quero%20falar%20com%20a%20Silva%20Bike"
+      target="_blank"
+      rel="noopener"
+      aria-label="Falar no WhatsApp"
+    >
+       WhatsApp
+    </a>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">S</span>
+            <span>Silva Bike</span>
+          </div>
+          <p>Mais que uma loja, uma paixão por pedalar.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#bicicletas">Bikes</a>
+          <a href="#pecas">Peças</a>
+          <a href="#manutencao">Manutenção</a>
+          <a href="#custom">Custom</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const totalDisplay = document.getElementById('valor-total');
+      const resumoList = document.getElementById('resumo-itens');
+      const selectFields = document.querySelectorAll('.custom-field');
+      const extraOptions = document.querySelectorAll('.extra-option');
+      const colorOptions = document.querySelectorAll('input[name="cor"]');
+      const previewImage = document.getElementById('bike-preview-image');
+      const previewItens = document.getElementById('preview-itens');
+      const whatsappCustom = document.getElementById('whatsapp-custom');
+      const tipoManutencao = document.getElementById('tipo-manutencao');
+      const whatsappManutencao = document.getElementById('whatsapp-manutencao');
+      const whatsappButtons = document.querySelectorAll('.btn-whatsapp, .floating-whatsapp');
+
+      const imagensPreview = {
+        estilo: {
+          Urbana: 'https://images.unsplash.com/photo-1541625602330-2277a4c46182?auto=format&fit=crop&w=1200&q=80',
+          MTB: 'https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=1200&q=80',
+          Road: 'https://images.unsplash.com/photo-1558980664-10e7170b5df9?auto=format&fit=crop&w=1200&q=80',
+          Elétrica: 'https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1200&q=80'
+        },
+        quadro: {
+          Alumínio: 'https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=900&q=80',
+          Carbono: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=900&q=80',
+          Aço: 'https://images.unsplash.com/photo-1541625602330-2277a4c46182?auto=format&fit=crop&w=900&q=80'
+        },
+        rodas: {
+          '26 polegadas': 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80',
+          '27,5 polegadas': 'https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=900&q=80',
+          '29 polegadas': 'https://images.unsplash.com/photo-1528629297340-d1d466945dc5?auto=format&fit=crop&w=900&q=80'
+        },
+        freios: {
+          'Disco hidráulico': 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80',
+          'V-brake': 'https://images.unsplash.com/photo-1528629297340-d1d466945dc5?auto=format&fit=crop&w=900&q=80',
+          'Disco mecânico': 'https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80'
+        },
+        cambio: {
+          'Shimano 1x12': 'https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?auto=format&fit=crop&w=900&q=80',
+          'SRAM GX': 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80',
+          'Campagnolo': 'https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80'
+        },
+        suspensao: {
+          'Sem suspensão': 'https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=900&q=80',
+          'Dianteira': 'https://images.unsplash.com/photo-1528629297340-d1d466945dc5?auto=format&fit=crop&w=900&q=80',
+          'Completa': 'https://images.unsplash.com/photo-1558980664-10e7170b5df9?auto=format&fit=crop&w=900&q=80'
+        },
+        guidao: {
+          'Flat bar': 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80',
+          'Drop bar': 'https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=900&q=80',
+          'Mountain bar': 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=900&q=80'
+        },
+        banco: {
+          Conforto: 'https://images.unsplash.com/photo-1541625602330-2277a4c46182?auto=format&fit=crop&w=900&q=80',
+          Esportivo: 'https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80',
+          Premium: 'https://images.unsplash.com/photo-1558980664-10e7170b5df9?auto=format&fit=crop&w=900&q=80'
+        },
+        cor: {
+          Preta: 'https://images.unsplash.com/photo-1541625602330-2277a4c46182?auto=format&fit=crop&w=900&q=80',
+          Azul: 'https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=900&q=80',
+          Vermelha: 'https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80',
+          Verde: 'https://images.unsplash.com/photo-1528629297340-d1d466945dc5?auto=format&fit=crop&w=900&q=80',
+          Branca: 'https://images.unsplash.com/photo-1558980664-10e7170b5df9?auto=format&fit=crop&w=900&q=80',
+          Laranja: 'https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=900&q=80'
+        }
+      };
+
+      function getImagemPorOpcao(chave, valor, fallback) {
+        const grupo = imagensPreview[chave] || {};
+        return grupo[valor] || fallback || Object.values(grupo)[0] || '';
+      }
+
+
+      whatsappButtons.forEach((button) => {
+        if (button.id === 'whatsapp-custom') {
+          button.innerHTML = 'Solicitar orçamento';
+        } else if (button.classList.contains('floating-whatsapp')) {
+          button.innerHTML = 'WhatsApp';
+        } else {
+          button.innerHTML = 'WhatsApp';
+        }
+      });
+
+      function atualizarMensagemManutencao() {
+        if (!tipoManutencao || !whatsappManutencao) return;
+
+        const servico = tipoManutencao.value;
+        const mensagem = `Ol%C3%A1%2C%20quero%20solicitar%20a%20manuten%C3%A7%C3%A3o%20${encodeURIComponent(servico)}`;
+        whatsappManutencao.href = `https://wa.me/553191305237?text=${mensagem}`;
+      }
+
+      function atualizarPreview() {
+        const estilo = document.getElementById('estilo');
+        const quadro = document.getElementById('quadro');
+        const tamanho = document.getElementById('tamanho');
+        const rodas = document.getElementById('rodas');
+        const freios = document.getElementById('freios');
+        const cambio = document.getElementById('cambio');
+        const suspensao = document.getElementById('suspensao');
+        const guidao = document.getElementById('guidao');
+        const banco = document.getElementById('banco');
+        const corSelecionada = document.querySelector('input[name="cor"]:checked');
+
+        const estiloLabel = estilo ? estilo.options[estilo.selectedIndex].text : 'Urbana';
+        const quadroLabel = quadro ? quadro.options[quadro.selectedIndex].text : 'Alumínio';
+        const tamanhoLabel = tamanho ? tamanho.options[tamanho.selectedIndex].text : 'M';
+        const rodasLabel = rodas ? rodas.options[rodas.selectedIndex].text : '26 polegadas';
+        const freiosLabel = freios ? freios.options[freios.selectedIndex].text : 'Disco hidráulico';
+        const cambioLabel = cambio ? cambio.options[cambio.selectedIndex].text : 'Shimano 1x12';
+        const suspensaoLabel = suspensao ? suspensao.options[suspensao.selectedIndex].text : 'Sem suspensão';
+        const guidaoLabel = guidao ? guidao.options[guidao.selectedIndex].text : 'Flat bar';
+        const bancoLabel = banco ? banco.options[banco.selectedIndex].text : 'Conforto';
+        const corLabel = corSelecionada ? corSelecionada.closest('label')?.textContent?.trim() || 'Preta' : 'Preta';
+
+        const mainImage = getImagemPorOpcao('estilo', estiloLabel, imagensPreview.estilo.Urbana);
+        if (previewImage) {
+          previewImage.style.backgroundImage = `url('${mainImage}')`;
+          previewImage.style.backgroundSize = 'cover';
+          previewImage.style.backgroundPosition = 'center';
+        }
+
+        const thumbs = [
+          { label: 'Estilo', value: estiloLabel, image: getImagemPorOpcao('estilo', estiloLabel, imagensPreview.estilo.Urbana) },
+          { label: 'Quadro', value: quadroLabel, image: getImagemPorOpcao('quadro', quadroLabel, imagensPreview.quadro.Alumínio) },
+          { label: 'Tamanho', value: tamanhoLabel, image: getImagemPorOpcao('rodas', rodasLabel, imagensPreview.rodas['26 polegadas']) },
+          { label: 'Rodas', value: rodasLabel, image: getImagemPorOpcao('rodas', rodasLabel, imagensPreview.rodas['26 polegadas']) },
+          { label: 'Freios', value: freiosLabel, image: getImagemPorOpcao('freios', freiosLabel, imagensPreview.freios['Disco hidráulico']) },
+          { label: 'Câmbio', value: cambioLabel, image: getImagemPorOpcao('cambio', cambioLabel, imagensPreview.cambio['Shimano 1x12']) },
+          { label: 'Suspensão', value: suspensaoLabel, image: getImagemPorOpcao('suspensao', suspensaoLabel, imagensPreview.suspensao['Sem suspensão']) },
+          { label: 'Guidão', value: guidaoLabel, image: getImagemPorOpcao('guidao', guidaoLabel, imagensPreview.guidao['Flat bar']) },
+          { label: 'Banco', value: bancoLabel, image: getImagemPorOpcao('banco', bancoLabel, imagensPreview.banco.Conforto) },
+          { label: 'Cor', value: corLabel, image: getImagemPorOpcao('cor', corLabel.split(' ')[0] || 'Preta', imagensPreview.cor.Preta) }
+        ];
+
+        if (previewItens) {
+          previewItens.innerHTML = thumbs
+            .map(
+              (item) => `
+                <div class="preview-thumb" style="background-image: url('${item.image}')">
+                  <span>${item.label}: ${item.value}</span>
+                </div>
+              `
+            )
+            .join('');
+        }
+      }
+
+      function atualizarResumo() {
+        const valores = Array.from(selectFields).map((select) => Number(select.value || 0));
+        const extras = Array.from(extraOptions)
+          .filter((input) => input.checked)
+          .map((input) => ({ name: input.dataset.name, value: Number(input.value) }));
+        const cor = Array.from(colorOptions).find((input) => input.checked);
+        const soma = valores.reduce((acc, value) => acc + value, 0) + extras.reduce((acc, item) => acc + item.value, 0) + Number(cor ? cor.value : 0);
+
+        totalDisplay.textContent = new Intl.NumberFormat('pt-BR', {
+          style: 'currency',
+          currency: 'BRL'
+        }).format(soma);
+
+        const itens = [];
+        Array.from(selectFields).forEach((select) => {
+          const label = select.dataset.label || select.closest('label')?.firstChild?.textContent?.trim() || select.id;
+          if (select.value !== '0') {
+            itens.push(`${label}: ${select.options[select.selectedIndex].text}`);
+          }
+        });
+
+        extras.forEach((item) => itens.push(item.name));
+        if (cor) {
+          itens.push(`Cor: ${cor.parentElement.textContent.trim()}`);
+        }
+
+        resumoList.innerHTML = itens.length ? itens.map((item) => `<li>${item}</li>`).join('') : '<li>Bike personalizada</li>';
+
+        if (whatsappCustom) {
+          const texto = itens.length
+            ? `Ol%C3%A1%2C%20quero%20or%C3%A7ar%20a%20minha%20bike%20personalizada%3A%20${itens.map((item) => encodeURIComponent(item)).join('%20%7C%20')}`
+            : 'Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento%20de%20bike%20personalizada';
+          whatsappCustom.href = `https://wa.me/553191305237?text=${texto}`;
+        }
+      }
+
+      selectFields.forEach((select) => {
+        select.addEventListener('change', () => {
+          atualizarResumo();
+          atualizarPreview();
+        });
+      });
+      extraOptions.forEach((input) => input.addEventListener('change', atualizarResumo));
+      colorOptions.forEach((input) => input.addEventListener('change', atualizarResumo));
+      if (tipoManutencao) {
+        tipoManutencao.addEventListener('change', atualizarMensagemManutencao);
+      }
+
+      atualizarResumo();
+      atualizarPreview();
+      atualizarMensagemManutencao();
+    </script>
+  </body>
+</html>
